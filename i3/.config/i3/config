@@ -98,6 +98,8 @@ bindsym $mod+q kill
 #bindsym $mod+d exec --no-startup-id dmenu_run
 bindsym $mod+d exec --no-startup-id rofi -show combi
 
+bindsym $mod+Shift+d exec emacsclient -c -a 'emacs'
+
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
